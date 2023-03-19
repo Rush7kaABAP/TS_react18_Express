@@ -1,6 +1,9 @@
 # Добавленные пакеты
 
-yarn add @types/react-redux @types/react
+yarn add classnames react-router-dom@6 react-redux reselect
+yarn add styled-components @types/styled-components
+
+? @types/react-redux
 
 # Добвленные скрипты
 

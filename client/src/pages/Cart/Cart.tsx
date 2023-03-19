@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button } from '../../components/Button/Button';
+import { Button, StyledButton } from '../../components/Button/Button';
 import { Dish } from '../../components/Dish/Dish';
 import { clearCart } from '../../store/modules/cart/actions';
 import { selectCartDishIds } from '../../store/modules/cart/selectors';
@@ -19,12 +19,17 @@ export const Cart: React.FC<CartProps> = () => {
     <div className={styles.root}>
       <div className={styles.header}>
         <h2>Cart</h2>
-        <Button
+        <StyledButton onClick={() => dispatch(clearCart())}
+          className={styles.clearButton}
+          bgColor='black'>
+          Clear
+        </StyledButton>
+        {/* <Button
           onClick={() => dispatch(clearCart())}
           className={styles.clearButton}
         >
           Clear
-        </Button>
+        </Button> */}
       </div>
       {dishIds.length > 0 ? (
         <div>
