@@ -1,0 +1,9 @@
+.root {
+    display: flex;
+    flex-direction: column;
+}
+
+.restaurant {
+    min-width: 600px;
+    margin: 0 auto;
+}

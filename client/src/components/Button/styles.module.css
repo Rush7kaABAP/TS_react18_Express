@@ -1,0 +1,39 @@
+.root {
+    border-radius: 4px;
+
+    transition: background-color 0.2s;
+    cursor: pointer;
+    border: none;
+}
+
+
+.s {
+    font-size: 14px;
+    padding: 4px 8px;
+}
+.m {
+    font-size: 16px;
+    padding: 5px 10px;
+
+    min-height: 29px;
+    min-width: 29px;
+}
+.l {
+    font-size: 18px;
+    padding: 6px 12px;
+}
+
+.prime {
+    background-color: #f0ad4e;
+    color: white;
+    font-weight: 500;
+}
+
+.prime:hover {
+    background-color: #ffd25e;
+}
+.second {
+    background-color: dimgrey;
+    border: 1px solid green;
+    color: white;
+}

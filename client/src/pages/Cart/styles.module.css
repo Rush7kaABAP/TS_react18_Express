@@ -1,0 +1,21 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.clearButton {
+    margin-left: 10px;
+}
+
+.dish:not(:last-child) {
+    margin-bottom: 20px;
+}

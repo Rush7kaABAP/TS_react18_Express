@@ -1,0 +1,28 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+
+import Logo from './img/logo.svg';
+
+import styles from './styles.module.css';
+
+interface HeaderProps{
+}
+
+export const Header: React.FC<HeaderProps> = () => {
+  return (
+    <header className={styles.root}>
+      <Link to="/" className={styles.link}>
+        <img src={Logo} />
+      </Link>
+      <Link to="/restaurants" className={styles.link}>
+        Restaurants
+      </Link>
+      <Link to="/cart" className={styles.link}>
+        Cart
+      </Link>
+      <Link to="/dishes" className={styles.link}>
+        Dishes
+      </Link>
+    </header>
+  );
+};

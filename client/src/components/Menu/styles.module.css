@@ -1,0 +1,18 @@
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dish:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.sortButton {
+    margin-left: 10px;
+}
